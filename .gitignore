@@ -2,4 +2,5 @@ package-lock.json
 .DS_Store
 node_modules
 
-/data/token.json
+Lab1/data/token.json
+
