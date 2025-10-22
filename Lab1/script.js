@@ -11,7 +11,7 @@ const token = JSON.parse(fs.readFileSync('./data/token.json', 'utf-8')).tokenId;
 const client = new ApiClient(
     'politehnica-dev',
     token,
-    { region: 'eu-west', timeout: 5000 }
+    { region: 'eu-west' }
 );
 
 async function createData(row) {
